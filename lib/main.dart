@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Air Terjun Ngelirip',
       theme: ThemeData(),
       home: const DetailScreen(),
